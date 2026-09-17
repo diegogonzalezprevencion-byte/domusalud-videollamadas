@@ -76,7 +76,7 @@ export default function MeetingRoom() {
             connect={true}
             audio={false}
             video={false}
-            onDisconnected={() => router.push('/')}
+            onDisconnected={(reason) => setError(`LiveKit desconectó la reunión. Motivo: ${String(reason ?? 'desconocido')}`)}
             onError={(err) => setError(err.message || 'Error de LiveKit')}
             style={{ height: '100%' }}
           >
