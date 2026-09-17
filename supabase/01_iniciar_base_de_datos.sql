@@ -1,0 +1,2 @@
+-- ARCHIVO V2 DESACTIVADO: No ejecutar. La base de datos de cinco usuarios
+-- ya está instalada. Consulta BASE_ACTUAL_5_USUARIOS_SOLO_REFERENCIA.sql.

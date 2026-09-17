@@ -1,0 +1,2 @@
+-- ARCHIVO V2 DESACTIVADO: No ejecutar. Los cinco perfiles ya están creados.
+-- Consulta BASE_ACTUAL_5_USUARIOS_SOLO_REFERENCIA.sql si necesitas revisarlos.
