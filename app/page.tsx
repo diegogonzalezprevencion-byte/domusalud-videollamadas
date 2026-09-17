@@ -35,8 +35,7 @@ function AuthPanel() {
         email: email.trim().toLowerCase(),
         password,
       });
-      if (loginError) throw new Error('No se pudo ingresar. Revisa tu correo, contraseña y que tu cuenta esté confirmada.');
-      setPassword('');
+if (loginError) throw new Error(loginError.message);      setPassword('');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'No fue posible iniciar sesión.');
     } finally {
